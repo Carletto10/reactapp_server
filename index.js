@@ -5,7 +5,7 @@ const cors = require('cors');
 const app = express();
 
 
-const port = process.env.port || 4002;
+const port = process.env.PORT || 4002;
 
 
 app.get('/', (req, resp) => {
