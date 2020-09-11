@@ -27,5 +27,5 @@ app.use('/api/proyectos', require('./routes/proyectos'));
 app.use('/api/tareas', require('./routes/tareas'));
 
 app.listen(port, '0.0.0.0' ,  () => {
-    console.log(`EL SERVIDOR ESTA ESCUCHANDO POR EL PUERTO ${port}`);
+    console.log(`EL SERVIDOR ESTA ESCUCHANDO POR EL PUERTO: ${port}`);
 });
