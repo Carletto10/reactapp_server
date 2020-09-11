@@ -1,0 +1,92 @@
+
+
+npm init  -->>> crea package.json
+
+npm install -D nodemon  -->>  crea un demonio que esta pendiente de cambios para compilar y publicar al servidor
+
+npm i express mongoose dotenv
+
+----------------------
+-----------------------
+package.json
+
+  "scripts": {
+        "start": "node .", --->>> busca el archivo index.js en la raiz del proyecto  ejemplo /server.js (para especificar otro nombre)
+        "dev": "nodemon ."
+    },
+
+
+///////////////////////////////////
+ 233 
+///////////////////////////////////
+
+habilitar express.json
+
+app.use(express.json({extended : true}));
+
+HEADER -->> application/json
+
+//BODY PARSER
+
+/////////////////////////////////////
+ 237
+/////////////////////////////////////
+
+npm install bcryptjs
+
+
+/////////////////////////////////////
+ 238
+/////////////////////////////////////
+
+npm i express-validator
+
+/////////////////////////////////////
+ 240
+/////////////////////////////////////
+
+npm install jsonwebtoken
+
+////////////////////////////////////
+263
+/////////////////////////////////////
+npm i axios
+
+
+////////////////////////////////////
+265
+/////////////////////////////////////
+npm i cors
+
+/////////////////////////////////////
+274
+/////////////////////////////////////
+react higher order components 
+-->> UN COMPONENTE DENTRO DE OTRO PARA BLOQUEAR EL ACCCESO A USUARIOS NO AUTENTICADOS
+
+
+
+/////////////////////////////////////
+285
+/////////////////////////////////////
+
+//eslint-disable-next-line
+
+usado en el metodo useEffect para evitar que una aplicacion se cicle cuando es incovado
+y agregado como dependencia a la vez
+
+
+--------------------------------------
+--------------------------------------
+
+HEROKU
+
+MICROSOFT AZURE
+
+AMAZON WS
+
+HEROKU CLI
+
+NETLIFY  -->> JS
+
+GIT HUB
